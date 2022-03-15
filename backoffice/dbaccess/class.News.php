@@ -29,8 +29,7 @@ class NewsDataManager{
 		$query = "
         SELECT * 
         FROM ".DB_PREFIX."news 
-            LEFT JOIN ".DB_PREFIX."users ON ".DB_PREFIX."news.user_id=".DB_PREFIX."users.u_id 
-        WHERE 1=1 ".$constraints." ORDER BY n_id ASC";
+                   WHERE 1=1 ".$constraints." ORDER BY n_id ASC";
 		$result = $this->dataManager->_call("SELECT", $query);
 		
 		if($result === false){

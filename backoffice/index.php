@@ -6,7 +6,8 @@ include(ROOT."includes/inc.header.php");
 
 $news = $data_manager->news_list();
 if($news === false){
-	handleError("Unable to get news list!");
+	die('asdasd');
+	//	handleError("Unable to get news list!");
 }
 ?>
 

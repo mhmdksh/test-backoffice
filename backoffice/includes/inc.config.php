@@ -12,9 +12,9 @@ define("DATETIME_FORMAT", "Y-m-d H:i:s");
 define("MEDIA_DIRECTORY", ROOT."media/");
 
 // Database
-define("DB_HOST", "localhost");
-define("DB_NAME", "");
-define("DB_USER", "root");
-define("DB_PASS", "");
+define("DB_HOST", "criboudb.cfzfxjthiasd.me-south-1.rds.amazonaws.com");
+define("DB_NAME", "cribou");
+define("DB_USER", "cribou");
+define("DB_PASS", "?.XtBC3n12V4vOw618");
 define("DB_PREFIX", "");
 ?>
